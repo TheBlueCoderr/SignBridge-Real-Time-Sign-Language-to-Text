@@ -48,14 +48,47 @@ Existing solutions are either expensive or limited in accuracy.
 
 ---
 
-## 📸 Screenshots / Demo
-*(Add screenshots or GIFs of your app running here)*  
-
----
-
 ## 📦 Installation & Setup
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/SignBridge.git
 cd SignBridge
+```
 
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Run Data Collection Script
+python collect_data.py
+
+### 4. Train the Model
+python train_model.py
+
+### 5. Run Real-Time Recognition
+python signbridge.py
+
+### 📊 Dataset Format
+
+The dataset is stored in .csv format with the following structure:
+
+landmark_1_x	landmark_1_y	landmark_1_z	...	landmark_21_x	landmark_21_y	landmark_21_z	label
+0.123	0.456	-0.007	...	0.321	0.654	-0.012	Hello
+
+### 📈 Future Scope
+
+🧠 Expand ISL vocabulary to full sentences.
+🎤 Add text-to-speech for audio output.
+📱 Develop a mobile application version.
+🌐 Integrate with chatbots / translation tools for accessibility.
+🤝 Contribution
+
+### Contributions are welcome!
+
+Fork the repo
+Create a new branch
+Commit changes
+Open a Pull Request
+
+👨‍💻 Authors
+
+Preshal Ravish Sharma – Lead Developer
