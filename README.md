@@ -56,16 +56,21 @@ cd SignBridge
 ```
 
 ### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 3. Run Data Collection Script
+```bash
 python collect_data.py
-
+```
 ### 4. Train the Model
+```bash
 python train_model.py
-
+```
 ### 5. Run Real-Time Recognition
+```bash
 python signbridge.py
+```
 
 ### 📊 Dataset Format
 
